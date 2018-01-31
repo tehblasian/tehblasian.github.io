@@ -163,20 +163,20 @@ function Work(props){
 
 var projects = [
     {
+        thumbnail: '../images/wryss.jpg',
+        title: 'WryssBot',
+        caption: 'Won 2nd place overall at ConUHacks III',
+        start: 'January 2018',
+        summary: 'IBM Watson API, node-red',
+        url: 'https://github.com/tehblasian/WryssBot',
+    },
+    {
         thumbnail: '../images/pokedex.png',
         title: 'PokeDex App',
         caption: 'A PokeDex web app created using React.',
         start: 'July 2017',
         summary: 'Pokéapi v2',
         url: 'https://tehblasian.github.io/poke-app'
-    },
-    {
-        thumbnail: '../images/openweathermap.png',
-        title: 'Open Weather App',
-        caption: 'A weather web app created using React.',
-        start: 'June 2017',
-        summary: 'Open Weather Map API',
-        url: 'https://tehblasian.github.io/weather-app',
     },
     {
         thumbnail: '../images/roast.png',
