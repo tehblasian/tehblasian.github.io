@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- "stable"
+script:
+- rm -rf .git
+- npm install
+- npm run build
+- git clone https://$GITHUB_API_TOKEN@github.com/tehblasian/tehblasian.github.io.git
+- rm -f tehblasian.github.io/index_bundle.js
+- cp dist/index_bundle.js tehblasian.github.io/index_bundle.js
+- cd tehblasian.github.io
+- git add index_bundle.js
+- git commit -m "[Travis CI] Updated bio"
+- git push
