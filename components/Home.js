@@ -44,6 +44,13 @@ const work = [
     {
         thumbnail: '../images/nuance_logo.png',
         company: 'Nuance Communications',
+        position: 'Software Development Intern (DevOps)',
+        start: 'May. 2018',
+        end: 'Aug. 2018',
+    },
+    {
+        thumbnail: '../images/nuance_logo.png',
+        company: 'Nuance Communications',
         position: 'Software Engineering Intern',
         start: 'Sept. 2017',
         end: 'Dec. 2017'
@@ -51,6 +58,14 @@ const work = [
 ];
 
 const projects = [
+    {
+        thumbnail: '../images/caption_this.png',
+        title: 'CaptionThis',
+        caption: 'Share photos (Moments) with the world! Users can submit caption ideas for each Moment.',
+        summary: 'Reactjs, Node.js (Hapi), Docker',
+        start: 'January 2018 - March 2018',
+        url: 'https://github.com/justin-cotarla/CaptionThis',
+    },
     {
         thumbnail: '../images/wryss.jpg',
         title: 'WryssBot',
@@ -67,14 +82,6 @@ const projects = [
         summary: 'Pokéapi v2',
         url: 'https://tehblasian.github.io/poke-app'
     },
-    {
-        thumbnail: '../images/roast.png',
-        title: 'RoastBot',
-        caption: 'A simple SMS bot that replies to texts with a random insult.',
-        start: 'April 2017',
-        summary: 'Twilio API',
-        url: 'https://github.com/tehblasian/RoastBot',
-    }
 ];
 
 const Home = (props) => {

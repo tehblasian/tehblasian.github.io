@@ -10,7 +10,7 @@ const Work = (props) => {
             {
                 work.map((entry, index) => {
                     return (
-                        <li key={entry.company}>
+                        <li key={index}>
                             <ListItem
                                 thumbnail={entry.thumbnail}
                                 title={entry.company}

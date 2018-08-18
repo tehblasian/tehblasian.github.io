@@ -20,7 +20,21 @@ const Info = (props) => {
                 <MediaQuery maxDeviceWidth={768}><p className='header-small'>{info.summary}</p></MediaQuery>
                 <MediaQuery minDeviceWidth={769}><pre className='header-small'>{info.summary}</pre></MediaQuery>
             <ReactTooltip className='tooltip' place='bottom' type='dark' effect='solid' delayHide={50}/>
-            <a href='https://github.com/tehblasian/'><img data-tip='Check out my GitHub!' className='badge' src='../images/GitHub-Mark-32px.png' alt='GitHub Logo'/></a>
+            <a href='https://github.com/tehblasian/' target="_blank">
+                <img 
+                    data-tip='Check out my GitHub!' 
+                    className='badge' 
+                    src='../images/GitHub-Mark-32px.png' 
+                    alt='GitHub Logo'/>
+            </a>
+            <a href="https://www.linkedin.com/in/jeremiah-david-wreh/" target="_blank">
+                <img 
+                    style={{ position: 'relative', left: '10px' }} 
+                    data-tip="View out my LinkedIn profile!" 
+                    className="badge" 
+                    src="../images/linkedin-logo.png" 
+                    alt="LinkedIn logo"/> 
+            </a>
         </div>
     )
 }
