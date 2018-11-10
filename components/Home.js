@@ -59,6 +59,14 @@ const work = [
 
 const projects = [
     {
+        thumbnail: '../images/rudating.png',
+        title: 'RU Dating?',
+        caption: 'A speed-dating app with human interaction in mind. No more mindless swiping!',
+        summary: 'Flask, Socket.io',
+        start: 'HackRU | October 6-7, 2018',
+        url: 'https://github.com/ZacharyBys/rudating',
+    },
+    {
         thumbnail: '../images/caption_this.png',
         title: 'CaptionThis',
         caption: 'Share photos (Moments) with the world! Users can submit caption ideas for each Moment.',
@@ -72,7 +80,7 @@ const projects = [
         caption: 'Won 2nd place overall at ConUHacks III',
         start: 'January 2018',
         summary: 'IBM Watson API, node-red',
-        url: 'https://github.com/tehblasian/WryssBot',
+        url: 'https://devpost.com/software/wryssbot',
     },
     {
         thumbnail: '../images/pokedex.png',
