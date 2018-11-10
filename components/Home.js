@@ -18,12 +18,12 @@ const info = {
         state: 'Quebec',
         country: 'Canada',
     },
-    summary: 'Welcome to my page! Here you\'ll find information about myself and my current projects. \nHave a look!',
+    summary: 'Welcome! Here you\'ll find information about myself and my current projects. \nHave a look!',
 }
 
 const education = [
     {
-        thumbnail: '../images/concordia_logo.png',
+        thumbnail: '../assets/concordia_logo.png',
         school: 'Concordia University',
         degree: 'B.Eng',
         field: 'Software Engineering',
@@ -31,7 +31,7 @@ const education = [
         end: 'Expected 2020'
     },
     {
-        thumbnail: '../images/dawson_logo.png',
+        thumbnail: '../assets/dawson_logo.png',
         school: 'Dawson College',
         degree: 'DEC',
         field: 'Pure & Applied Sciences',
@@ -42,14 +42,14 @@ const education = [
 
 const work = [
     {
-        thumbnail: '../images/nuance_logo.png',
+        thumbnail: '../assets/nuance_logo.png',
         company: 'Nuance Communications',
         position: 'Software Development Intern (DevOps)',
         start: 'May. 2018',
         end: 'Aug. 2018',
     },
     {
-        thumbnail: '../images/nuance_logo.png',
+        thumbnail: '../assets/nuance_logo.png',
         company: 'Nuance Communications',
         position: 'Software Engineering Intern',
         start: 'Sept. 2017',
@@ -59,7 +59,7 @@ const work = [
 
 const projects = [
     {
-        thumbnail: '../images/rudating.png',
+        thumbnail: '../assets/rudating.png',
         title: 'RU Dating?',
         caption: 'A speed-dating app with human interaction in mind. No more mindless swiping!',
         summary: 'Flask, Socket.io',
@@ -67,7 +67,7 @@ const projects = [
         url: 'https://github.com/ZacharyBys/rudating',
     },
     {
-        thumbnail: '../images/caption_this.png',
+        thumbnail: '../assets/caption_this.png',
         title: 'CaptionThis',
         caption: 'Share photos (Moments) with the world! Users can submit caption ideas for each Moment.',
         summary: 'Reactjs, Node.js (Hapi), Docker',
@@ -75,7 +75,7 @@ const projects = [
         url: 'https://github.com/justin-cotarla/CaptionThis',
     },
     {
-        thumbnail: '../images/wryss.jpg',
+        thumbnail: '../assets/wryss.jpg',
         title: 'WryssBot',
         caption: 'Won 2nd place overall at ConUHacks III',
         start: 'January 2018',
@@ -83,7 +83,7 @@ const projects = [
         url: 'https://devpost.com/software/wryssbot',
     },
     {
-        thumbnail: '../images/pokedex.png',
+        thumbnail: '../assets/pokedex.png',
         title: 'PokeDex App',
         caption: 'A PokeDex web app created using React.',
         start: 'July 2017',
