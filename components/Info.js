@@ -6,9 +6,9 @@ const Info = (props) => {
     const { info } = props;
     return(
         <div className='info-container'>
-            <MediaQuery maxDeviceWidth={768}><img className='avatar' src='../assets/profile.jpg' alt='Jay Wreh'/></MediaQuery>
+            <MediaQuery maxDeviceWidth={768}><img className='avatar' src='../assets/me.jpg' alt='Jay Wreh'/></MediaQuery>
             <ul className='horizontal'>
-            <MediaQuery minDeviceWidth={769}><li><img className='avatar' src='../assets/profile.jpg' alt='Jay Wreh'/></li></MediaQuery>
+            <MediaQuery minDeviceWidth={769}><li><img className='avatar' src='../assets/me.jpg' alt='Jay Wreh'/></li></MediaQuery>
                 <li className='information'>
                     <h1 className='header'>{info.fname + ' ' + info.lname}</h1>
                     <h1 className='headline'>{info.headline}</h1>

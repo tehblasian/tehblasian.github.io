@@ -124,9 +124,6 @@ const Home = (props) => {
                             </li>
                         </ul> 
                     </li> 
-                    <li>
-                        <Contact/>
-                    </li> 
                 </ul>
             </MediaQuery>
             <MediaQuery maxDeviceWidth={768}>
@@ -141,10 +138,7 @@ const Home = (props) => {
                     </li>  
                     <li>
                         <Projects projects={projects}/>
-                    </li>  
-                    <li>
-                        <Contact/>
-                    </li>           
+                    </li>          
                 </ul>
             </MediaQuery>
         </div>
