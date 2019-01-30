@@ -36,7 +36,7 @@ const Info = (props) => {
                     src="../assets/linkedin-logo.png" 
                     alt="LinkedIn logo"/> 
             </a>
-            <a href="../assets/resume_coop_ext.pdf" target="_blank">
+            <a href="../assets/jeremiahdavid_wreh.pdf" target="_blank">
                 <img 
                     style={{ position: 'relative', left: '12px' }} 
                     data-tip="View my resume!"
