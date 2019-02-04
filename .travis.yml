@@ -8,7 +8,7 @@ script:
 - git clone https://$GITHUB_API_TOKEN@github.com/tehblasian/tehblasian.github.io.git
 - rm -f tehblasian.github.io/index_bundle.js
 - rm -rf tehblasian.github.io/assets
-- cp dist/index_bundle.js tehblasian.github.io/index_bundle.js
+- cp build/index_bundle.js tehblasian.github.io/index_bundle.js
 - cp -r assets tehblasian.github.io/assets
 - cd tehblasian.github.io
 - git add index_bundle.js assets
