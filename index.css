@@ -115,6 +115,7 @@ textarea{
 }
 
 .projects-container{
+    height: fit-content;
     margin: 1em;
     padding: 15px 30px;
     border: 1px solid #ccc;
@@ -142,7 +143,6 @@ textarea{
     height: 87%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
 }
 
 .horizontal{

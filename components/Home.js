@@ -42,6 +42,13 @@ const education = [
 
 const work = [
     {
+        thumbnail: '../assets/ad.png',
+        company: 'AppDirect',
+        position: 'Software Developer Intern - Fullstack',
+        start: 'May. 2019',
+        end: 'Present',
+    },
+    {
         thumbnail: '../assets/nuance_logo.png',
         company: 'Nuance Communications',
         position: 'Software Development Intern (DevOps)',
@@ -59,35 +66,43 @@ const work = [
 
 const projects = [
     {
+        thumbnail: '../assets/santelogo.png',
+        title: 'UberSanté',
+        caption: 'An appointment scheduling system for clinics.',
+        meta: 'Tech used: React, Flask, SQLite',
+        start: 'February - March 2019 (course project)',
+        url: 'https://github.com/chriskfwoo/big-uber-sante',
+    },
+    {
+        thumbnail: '../assets/blockstory.png',
+        title: 'BlockStory',
+        caption: 'Collaborative storytelling on the Ethereum blockhain',
+        meta: 'Tech used: React, Ethereum Smart Contracts, Solidity, Truffle, Metamask',
+        start: 'HackCU V | February 23-24, 2019',
+        url: 'https://devpost.com/software/blockstory',
+    },
+    {
+        thumbnail: '../assets/vuforia-logo.png',
+        title: 'PayAR',
+        caption: 'An augmented reality self-checkout system.',
+        meta: 'Tech used: Unity, Vuforia, Flask',
+        start: 'McHacks 6 | February 2-3, 2019',
+        url: 'https://devpost.com/software/pay-ar',
+    },
+    {
         thumbnail: '../assets/rudating.png',
         title: 'RU Dating?',
         caption: 'A speed-dating app with human interaction in mind. No more mindless swiping!',
-        summary: 'Flask, Socket.io',
+        meta: 'Tech used: React, Flask, Socket.io',
         start: 'HackRU | October 6-7, 2018',
-        url: 'https://github.com/ZacharyBys/rudating',
-    },
-    {
-        thumbnail: '../assets/caption_this.png',
-        title: 'CaptionThis',
-        caption: 'Share photos (Moments) with the world! Users can submit caption ideas for each Moment.',
-        summary: 'Reactjs, Node.js (Hapi), Docker',
-        start: 'January 2018 - March 2018',
-        url: 'https://github.com/justin-cotarla/CaptionThis',
-    },
-    {
-        thumbnail: '../assets/wryss.jpg',
-        title: 'WryssBot',
-        caption: 'Won 2nd place overall at ConUHacks III',
-        start: 'January 2018',
-        summary: 'IBM Watson API, node-red',
-        url: 'https://devpost.com/software/wryssbot',
+        url: 'https://devpost.com/software/rudating',
     },
     {
         thumbnail: '../assets/pokedex.png',
         title: 'PokeDex App',
         caption: 'A PokeDex web app created using React.',
         start: 'July 2017',
-        summary: 'Pokéapi v2',
+        meta: 'Tech used: React, Pokéapi v2',
         url: 'https://tehblasian.github.io/poke-app'
     },
 ];
@@ -97,7 +112,6 @@ const Home = (props) => {
         height: '100%',
         display: 'flex',
         flexDirection: 'column', 
-        justifyContent: 'space-between',
     }
 
     return (

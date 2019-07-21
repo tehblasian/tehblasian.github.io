@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const ListItem = (props) => {
-    const { style, thumbnail, title, subtitle, summary, date } = props;
+    const { style, thumbnail, title, subtitle, summary, meta, date } = props;
     return(
         <div className='list-item-container' style={style}>
             <table>
@@ -13,6 +13,7 @@ const ListItem = (props) => {
                             <h1 className='item-description-bold'>{title}</h1>
                             <h1 className='item-description'>{subtitle}</h1>
                             {summary && <p className='item-description'>{summary}</p>}
+                            {meta && <h1 className='item-description'>{meta}</h1>}
                             <h1 className='item-description'>{date}</h1>
                         </td>
                     </tr>

@@ -16,8 +16,9 @@ const Projects = (props) => {
                                     <ListItem thumbnail={entry.thumbnail}
                                         title={entry.title}
                                         subtitle={entry.caption}
+                                        summary={entry.summary}
                                         date={entry.start + (entry.end? ' - ' + entry.end : '')}
-                                        summary={'Tech Used: ' + entry.summary}/>
+                                        meta={entry.meta}/>
                                 </div>
                             </a>
                             {projects.length - index > 1 && <div className='line-separator' style={{marginBottom: '1em', width: '100%'}}></div>}   
