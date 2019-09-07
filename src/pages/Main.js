@@ -1,15 +1,11 @@
 import React from 'react';
 
-import Container from '../components/Container';
-import ImportantLinks from '../components/ImportantLinks';
+import WelcomeSection from '../components/WelcomeSection';
 
 const Main = () => {
     return (
         <div>
-            <Container>
-                <h1>Jeremiah-David Wreh</h1>
-                <ImportantLinks />
-            </Container>
+            <WelcomeSection />
         </div>
     );
 };
