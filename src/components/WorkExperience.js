@@ -2,7 +2,6 @@ import React from 'react'
 import Emoji from 'react-emoji-render';
 
 import Container from './Container';
-import Employment from './Employment';
 
 import AD from '../assets/ad.png';
 import Nuance from '../assets/nuance_logo.png';

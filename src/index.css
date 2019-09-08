@@ -16,8 +16,21 @@
   transform: translateY(-3px);
 }
 
+.tag {
+  font-size: 14px;
+  background-color: #a5e5ff;
+  margin: 0 0.7em 0.7em 0;
+  padding: 0.3em 0.5em;
+  border-radius: 2px;
+  width: max-content;
+}
+
 h1 {
   font-weight: 100;
+}
+
+a {
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 768px) {
