@@ -48,8 +48,8 @@ const projects = [
 ];
 
 const Projects = () => (
-    <Container>
-        <h1 className="header-large" style={{ margin: '0 0 1.5em 0' }}><Emoji text=":computer: { Recent projects } :computer: "/></h1>
+    <Container id="projects" style={{ paddingTop: '2em' }}>
+        <h1 className="header-large" style={{ margin: '0 0 1em 0' }}><Emoji text="recent projects :computer:"/></h1>
         <div style={{padding: '0 4em', width: '80%' }}>
             <ProjectList projects={projects} />
         </div>

@@ -23,8 +23,8 @@ const employments = [
 ];
 
 const WorkExperience = () => (
-    <Container>
-        <h1 className="header-large" style={{ margin: '0 0 1.5em 0' }}><Emoji text=":muscle: { Work experience } :muscle: "/></h1>
+    <Container id="work-experience">
+        <h1 className="header-large" style={{ margin: '0 0 1em 0' }}><Emoji text="work experience :muscle:"/></h1>
         <div style={{padding: '0 4em', width: '80%' }}>
             <EmploymentList employments={employments} />
         </div>

@@ -6,8 +6,8 @@ import Container from './Container';
 import ProfilePicture from '../assets/me.jpg';
 
 const AboutMe = () => (
-    <Container>
-        <h1 className="header-large" style={{ margin: '0 0 1.5em 0' }}>{'{ About Me }'}</h1>
+    <Container id="about-me">
+        <h1 className="header-large" style={{ margin: '0 0 1.5em 0' }}>about me</h1>
         <div className="header-medium-2" style={{ display: 'flex', flexDirection: 'row', padding: '0 4em', width: '80%' }}>
             <img style={{ maxWidth: '40%', height: 'auto' }} src={ProfilePicture} alt="Profile"/>
             <div style={{ display: 'flex', flexDirection: 'column', textAlign: 'justify', wordBreak: 'break-word' }}>
