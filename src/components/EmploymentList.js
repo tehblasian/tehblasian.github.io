@@ -9,11 +9,7 @@ const EmploymentList = ({ employments }) => (
             employments.map((employment) => (
                 <li key={employment.date}>
                     <ScrollAnimation animateIn="fadeInUp">
-                        <Employment 
-                            companyLogo={employment.companyLogo}
-                            companyName={employment.companyName}
-                            title={employment.title}
-                            date={employment.date} />
+                        <Employment {...employment} />
                     </ScrollAnimation>
                 </li>)
             ) 

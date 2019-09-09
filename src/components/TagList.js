@@ -1,4 +1,6 @@
 import React from 'react'
+import PropTypes from 'prop-types';
+
 import Tag from './Tag'
 
 const TagList = ({ tags }) => (
@@ -12,5 +14,9 @@ const TagList = ({ tags }) => (
         }
     </ul>
 )
+
+TagList.propTypes = {
+    tags: PropTypes.arrayOf(PropTypes.string).isRequired,
+};
 
 export default TagList;

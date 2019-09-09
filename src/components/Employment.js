@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types';
 
 import Icon from './Icon'
 
@@ -13,5 +14,13 @@ const Employment = ({ companyLogo, companyName, title, date, description }) => (
         <h1 className="header-small">{description}</h1>
     </span>
 )
+
+Employment.propTypes = {
+    companyLogo: PropTypes.string.isRequired,
+    companyName: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    date: PropTypes.string.isRequired,
+    description: PropTypes.string,
+};
 
 export default Employment;

@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types';
 
 import Icon from './Icon';
 import TagList from './TagList';
@@ -20,5 +21,15 @@ const Project = ({ thumbnail, name, summary, tech, date, source, devpost = null 
         <TagList tags={tech}/>
     </span>
 )
+
+Project.propTypes = {
+    thumbnail: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    summary: PropTypes.string.isRequired,
+    tech: PropTypes.array.isRequired,
+    date: PropTypes.string.isRequired,
+    source: PropTypes.string.isRequired,
+    devpost: PropTypes.string,
+};
 
 export default Project;
