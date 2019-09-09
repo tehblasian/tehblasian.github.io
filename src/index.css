@@ -106,6 +106,15 @@ a {
   text-decoration: none;
 }
 
+.project-header {
+  display: flex;
+}
+
+.project-links, .project-logo-name {
+  display: flex;
+  flex-direction: row;
+}
+
 @media only screen and (max-width: 768px) {
   .about-me {
     flex-direction: column;
@@ -117,6 +126,16 @@ a {
     margin-bottom: 1em;
     max-width: 40%;
     height: auto;
+  }
+  .project-header {
+    flex-direction: column;
+  }
+  .project-logo-name {
+    align-items: center;
+  }
+  .project-links h1 {
+    margin-left: 0 !important;
+    margin-right: 0.5em;
   }
   .sidenav {
     font-size: 14px;
