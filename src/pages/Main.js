@@ -27,7 +27,7 @@ const Main = () => {
                 </NavLink>
                 <NavLink 
                     smooth
-                    to="/#projects"
+                    to="/#recent-projects"
                     activeClassName="navlink-active"
                     location={{pathname: document.location.pathname + document.location.hash}}>
                         recent projects

@@ -1,4 +1,6 @@
 import React from 'react'
+import ScrollAnimation from 'react-animate-on-scroll';
+
 import Project from './Project';
 
 const ProjectList = ({ projects }) => (
@@ -6,7 +8,9 @@ const ProjectList = ({ projects }) => (
         { 
             projects.map((project) => (
                 <li style={{ margin: '0.5em 0' }} key={project.date}>
-                    <Project {...project} />
+                    <ScrollAnimation animateIn="slideInLeft" duration={0.5}>
+                        <Project {...project} />
+                    </ScrollAnimation>
                 </li>)
             ) 
         }

@@ -3,6 +3,7 @@ import React from 'react'
 const listStyle = {
     display: 'flex',
     flexDirection: 'row',
+    justifyContent: 'center',
     listStyleType: 'none',
     padding: 0,
     margin: 0,

@@ -1,4 +1,6 @@
 import React from 'react'
+import ScrollAnimation from 'react-animate-on-scroll';
+
 import Employment from './Employment'
 
 const EmploymentList = ({ employments }) => (
@@ -6,11 +8,13 @@ const EmploymentList = ({ employments }) => (
         { 
             employments.map((employment) => (
                 <li key={employment.date}>
-                    <Employment 
-                        companyLogo={employment.companyLogo}
-                        companyName={employment.companyName}
-                        title={employment.title}
-                        date={employment.date} />
+                    <ScrollAnimation animateIn="fadeInUp">
+                        <Employment 
+                            companyLogo={employment.companyLogo}
+                            companyName={employment.companyName}
+                            title={employment.title}
+                            date={employment.date} />
+                    </ScrollAnimation>
                 </li>)
             ) 
         }

@@ -1,5 +1,6 @@
 import React from 'react'
 import Emoji from 'react-emoji-render';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 import Container from './Container';
 
@@ -24,7 +25,9 @@ const employments = [
 
 const WorkExperience = () => (
     <Container id="work-experience">
-        <h1 className="header-large" style={{ margin: '0 0 1em 0' }}><Emoji text="work experience :muscle:"/></h1>
+        <ScrollAnimation animateIn="fadeIn">
+            <h1 className="header-large" style={{ margin: '0 0 1em 0' }}><Emoji text="work experience :muscle:"/></h1>
+        </ScrollAnimation>
         <div style={{padding: '0 4em', width: '80%' }}>
             <EmploymentList employments={employments} />
         </div>

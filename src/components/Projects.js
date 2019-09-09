@@ -1,5 +1,6 @@
 import React from 'react'
 import Emoji from 'react-emoji-render';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 import Container from './Container';
 import ProjectList from './ProjectList';
@@ -48,8 +49,10 @@ const projects = [
 ];
 
 const Projects = () => (
-    <Container id="projects" style={{ paddingTop: '2em' }}>
-        <h1 className="header-large" style={{ margin: '0 0 1em 0' }}><Emoji text="recent projects :computer:"/></h1>
+    <Container id="recent-projects" style={{ paddingTop: '2em' }}>
+        <ScrollAnimation animateIn="fadeIn">
+            <h1 className="header-large" style={{ margin: '0 0 1em 0' }}><Emoji text="recent projects :computer:"/></h1>
+        </ScrollAnimation>
         <div style={{padding: '0 4em', width: '80%' }}>
             <ProjectList projects={projects} />
         </div>
