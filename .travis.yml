@@ -6,6 +6,12 @@ cache:
   - node_modules
 script:
   - npm test
+  - npm run build
 deploy:
-  provider: script
-  script: npm run deploy
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_API_TOKEN
+  local_dir: build
+  target_branch: master
+  on:
+    branch: dev
