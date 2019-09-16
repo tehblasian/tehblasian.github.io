@@ -7,7 +7,7 @@ import LinkedInLogo from '../assets/linkedin.png';
 import GitHubLogo from '../assets/github.png';
 import ResumeIcon from '../assets/cv.png';
 
-import Resume from '../assets/resume_regular.pdf';
+import Resume from '../assets/resume.pdf';
 
 const ImportantLinks = () => (
     <IconRow>
