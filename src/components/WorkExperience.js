@@ -13,7 +13,7 @@ const employments = [
         companyLogo: AD,
         companyName: 'AppDirect',
         title: 'Software Developer Intern - Full Stack',
-        date: 'May 2019 - Present',
+        date: 'May 2019 - December 2019',
     },
     {
         companyLogo: Nuance,
