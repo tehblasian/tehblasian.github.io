@@ -4,11 +4,18 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 import Container from './Container';
 
+import Etsy from '../assets/etsy.jpg';
 import AD from '../assets/ad.png';
 import Nuance from '../assets/nuance_logo.png';
 import EmploymentList from './EmploymentList';
 
 const employments = [
+    {
+        companyLogo: Etsy,
+        companyName: 'Etsy',
+        title: 'Software Engineer Intern - iOS',
+        date: 'May 2020 - Present',
+    },
     {
         companyLogo: AD,
         companyName: 'AppDirect',

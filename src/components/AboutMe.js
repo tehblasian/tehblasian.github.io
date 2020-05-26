@@ -17,11 +17,11 @@ const AboutMe = () => (
             </ScrollAnimation>
             <div className="header-medium-2" style={{ display: 'flex', flexDirection: 'column', textAlign: 'justify', wordBreak: 'break-word' }}>
                 <p style={{ margin: '0.5em 0' }}>
-                    I'm a Software Engineering student in my final year of study at Concordia University, located in Montreal, Canada. 
+                    I recently graduated from Concordia University's Software Engineering program. 
                 </p>
                 <p style={{ margin: '0.5em 0' }}>
                     I have experience with web technologies such as React/Redux, Node.js, GraphQL, and Flask, 
-                    and have experience developing in Java and Python.
+                    and have experience developing in Java and Python. This summer, I'll be working as a software engineer intern (iOS) at Etsy!
                 </p>
                 <p style={{ margin: '0.5em 0' }}>
                     <Emoji text="My hobbies include playing and writing music, powerlifting, and following the NBA (#WETHECHAMPS)!:musical_keyboard::weight_lifter::basketball:"/>

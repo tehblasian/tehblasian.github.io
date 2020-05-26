@@ -5,12 +5,22 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import Container from './Container';
 import ProjectList from './ProjectList';
 
+import SmartBox from '../assets/smart-box-logo.png';
 import UberSante from '../assets/santelogo.png';
 import BlockStory from '../assets/blockstory.png';
 import PayAR from '../assets/vuforia-logo.png';
 import RUDating from '../assets/rudating.png';
 
 const projects = [
+    {
+        thumbnail: SmartBox,
+        name: 'SmartBox Delivery',
+        summary: 'An end-to-end delivery system for independent courriers',
+        tech: ['React', 'Flask', 'Arduino'],
+        date: 'uOttaHack 3 | February 7-9, 2020',
+        source: 'https://github.com/DYu24/smart-box',
+        devpost: 'https://devpost.com/software/smartbox-delivery',
+    },
     {
         thumbnail: UberSante,
         name: 'Uber Santé',
