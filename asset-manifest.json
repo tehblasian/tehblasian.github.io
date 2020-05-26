@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3a93c3d8.chunk.css",
+    "main.js": "/static/js/main.68aa98fd.chunk.js",
+    "main.js.map": "/static/js/main.68aa98fd.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.e7964012.js",
+    "runtime~main.js.map": "/static/js/runtime~main.e7964012.js.map",
+    "static/css/2.ff29e5f6.chunk.css": "/static/css/2.ff29e5f6.chunk.css",
+    "static/js/2.a2f3b9af.chunk.js": "/static/js/2.a2f3b9af.chunk.js",
+    "static/js/2.a2f3b9af.chunk.js.map": "/static/js/2.a2f3b9af.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.cea1b5962aecfee4e29b5b2b62bb1fcb.js": "/precache-manifest.cea1b5962aecfee4e29b5b2b62bb1fcb.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.ff29e5f6.chunk.css.map": "/static/css/2.ff29e5f6.chunk.css.map",
+    "static/css/main.3a93c3d8.chunk.css.map": "/static/css/main.3a93c3d8.chunk.css.map",
+    "static/media/blockstory.png": "/static/media/blockstory.6b70c7cf.png",
+    "static/media/github.png": "/static/media/github.b71bc541.png",
+    "static/media/linkedin.png": "/static/media/linkedin.f08c524d.png",
+    "static/media/me.jpg": "/static/media/me.79c39552.jpg",
+    "static/media/resume.pdf": "/static/media/resume.ad7da698.pdf",
+    "static/media/rudating.png": "/static/media/rudating.c0f0a3aa.png",
+    "static/media/smart-box-logo.png": "/static/media/smart-box-logo.ab26f7fa.png",
+    "static/media/vuforia-logo.png": "/static/media/vuforia-logo.03f74500.png"
+  }
+}
